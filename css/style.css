@@ -1,0 +1,464 @@
+@font-face
+{
+    font-family: 'Poppins-Regular';
+        src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face
+{
+    font-family: 'ShadowsIntoLight';
+        src: url('../fonts/Shadows_Into_Light/ShadowsIntoLight.ttf');
+}
+
+body{
+    font-family: 'Poppins-Regular';
+    background-color: #f2f2f2;
+    height: 100%;
+}
+
+/* Page Header */
+
+#intendant h2{
+    text-align: center;
+    color: rgb(54, 68, 31);
+}
+
+#hot .logouniv{
+    width: 150px;
+    margin-left: 30%;
+}
+
+#hot .logouniv h3{
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+#hot .logouniv h3 span{
+    font-size: 13px;
+}
+
+#hot .logouniv a{
+    color: rgb(0, 0, 0);
+}
+
+#hot{
+  width: 100%;
+  padding: 20px 0px 30px 0px; 
+  background-color: #fff;
+  height: 90%;
+}
+
+.union h3{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.union p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#profil{
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#icon{
+    display: flex;
+}
+
+#icon h4, #icon h5{
+    margin-left: 3%;
+}
+
+#profil h5{
+    text-align: left;
+}
+
+#profil  a{
+    color: rgba(0, 0, 0, 0.733);
+}
+
+#profil h4 span{
+    font-size: 1.7rem;
+    color: rgb(5, 141, 105);
+}
+
+
+/* Page admin */
+
+#admi{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#admin form input[type="text"], #admin form input[type="tel"], #admin form input[type="password"], #admin form input[type="number"], #admin form input[type="date"], #admin form input[type="email"], #admin form textarea{
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    padding: 2px 0px 2px 5px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+#admin form input[type="reset"]{
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(161, 43, 35);
+    color: #fff;
+    padding: 4px 8px 4px 8px;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+#admin form input[type="submit"]{
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(27, 148, 112);
+    color: #fff;
+    float: right;
+    padding: 4px 8px 4px 8px;
+    width: 90%;
+    margin-top: 5%;
+    margin-right: 8%;
+}
+
+#admin form input[type="reset"]:hover{
+    background-color: rgb(134, 27, 19);
+}
+
+#admin form input[type="submit"]:hover{
+    background-color: rgb(22, 119, 90);
+}
+
+#admin form select{
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    padding: 2px 0px 2px 5px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+
+/* Page Login */
+
+#login #log{
+    width: 300px;
+    background-color: #fff;
+    height: 100%;
+    margin: 30px 30px 30px 30px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+#login #admin{
+    width: 800px;
+    background-color: #fff;
+    height: 100%;
+    margin: 30px 30px 30px 30px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#log h3, #admin h3{
+    text-align: center;
+}
+
+#log h4{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    border-radius: 50%;
+    width: 88px;
+    background: -webkit-linear-gradient(right, #d61c1c, #d61c1c);
+    background: -o-linear-gradient(right, #d61c1c, #d61c1c);
+    background: -moz-linear-gradient(right, #d61c1c, #d61c1c);
+    background: linear-gradient(right, #d61c1c, #d61c1c);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-left: 35%;
+    color: rgba(255, 255, 255, 0.938);
+}
+
+#log form input[type="text"], #log form input[type="password"]{
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.521);
+    margin-bottom: 10%;
+    padding: 2px 0px 2px 5px;
+    border-radius: 0px;
+    width: 100%;
+}
+
+#log form input[type="text"]:hover, #log form input[type="password"]:hover{
+    border: none;
+    border-bottom: 2px solid;
+    border-color: rgb(218, 14, 14);
+    transition: all 0.4s;
+}
+
+#login{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#log form input[type="reset"]{
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(161, 43, 35);
+    color: #fff;
+    padding: 4px 8px 4px 8px;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 2%; 
+}
+
+#log form input[type="submit"]{
+    border: none;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(right, #d61c1c, #18ad7b);
+    background: -o-linear-gradient(right, #d61c1c, #18ad7b);
+    background: -moz-linear-gradient(right, #d61c1c, #18ad7b);
+    background: linear-gradient(right, #d61c1c, #18ad7b);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    color: #fff;
+    padding: 4px 8px 4px 8px;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+
+#log form input[type="submit"]:hover{
+    background: -webkit-linear-gradient(right, #18ad7b, #d61c1c);
+    background: -o-linear-gradient(right, #18ad7b, #d61c1c);
+    background: -moz-linear-gradient(right, #18ad7b, #d61c1c);
+    background: linear-gradient(right, #18ad7b, #d61c1c);
+    background-color: rgb(22, 119, 90);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+#log form input[type="reset"]:hover{
+    background-color: rgb(134, 27, 19);
+}
+
+#log .oublie p a{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+#log .oublie{
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+/* Erreur de tous les pages */
+
+#erreur{
+    margin-top: 20px;
+    color: red;
+}
+
+/* Menu */
+#bgco{
+    background-color: rgb(5, 141, 105);
+}
+
+#bgco a{
+    font-size: 15px;
+}
+
+
+/* Page index comptable*/
+
+#index_show, #index_sho{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#index_show{
+    margin-left:2%;
+}
+
+#index_seuille{
+    text-align: left;
+    background-color: rgb(204, 47, 47);
+    margin-right: 60px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.938);
+    padding: 20px 0px 20px 15px;
+    border-radius: 5px;   
+}
+
+#index_produit{
+    text-align: left;
+    background-color: rgb(5, 141, 105);
+    margin-right: 60px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.938);
+    padding: 20px 0px 20px 15px;
+    border-radius: 5px;   
+}
+
+#index_titre h2{
+    text-align: center;
+    color: rgb(22, 119, 90);
+}
+
+#index_titre{
+    margin-top: 20px;
+}
+
+#index_show h2{
+    color: black;
+}
+
+#dolar{
+    margin-bottom: 20px;
+}
+
+#montant{
+    margin-left: 15px;
+}
+
+#dolar h3{
+    font-size: 40px;
+    text-align: right;
+}
+/* page liste_produit et liste_fournisseur */
+#liste_show{
+    margin-top: 20px;
+}
+
+#liste_show h3{
+    text-align: center;
+}
+
+#liste_table{
+    margin-top: 20px;
+}
+
+/* page supprimer */
+
+#supprimer_show{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#supprimer_show h5, #supprimer_show h6{
+    font-size: 2rem;
+}
+
+/* Fiche de stock */
+#fiche_imprimer{
+    float: right;
+    background-color: rgb(27, 148, 112);
+    padding: 4px 15px 4px 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#fiche_imprimer a{
+    color: rgba(255, 255, 255, 0.938);
+}
+
+/* Tableau */
+
+#liste_show table, #liste_show td, #liste_show th
+{
+    border: 1px solid rgb(36, 35, 35);
+}
+
+#liste_table table, #liste_table td, #liste_table th
+{
+    border: 1px solid rgba(36, 35, 35, 0.74);
+    font-size: 20px;
+    color: black;
+}
+
+#liste_table p{
+    font-size: 18px;
+    color: black;
+}
+
+#liste_synthese table, #liste_synthese td, #liste_synthese th{
+    border: 1px solid rgba(36, 35, 35, 0.74);
+}
+
+#liste_synthese p{
+    font-size: 13px;
+    color: black;
+}
+
+/* Page de synthese */
+#search form input[type="submit"]{
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(27, 148, 112);
+    color: #fff;
+    float: right;
+    padding: 4px 8px 4px 8px;
+    width: 90%;
+    margin-right: 8%;
+}
+
+#search form input[type="submit"]:hover{
+    background-color:rgb(22, 122, 92);
+}
+
+#index_sho #produit{
+    border-right: 1px solid black;
+}
+
+#index_sho{
+    margin-top: 5%;
+}
+
+#index_sho h4{
+    color: rgb(22, 119, 90);
+}
+
+#lot
+{
+    display: flex;
+    /*margin-left: 30%;*/
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#lot div svg
+{
+    margin-right: 10px;
+}
+
+ul li a #notif{
+    color: red;
+    background-color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 50%;
+
+}
